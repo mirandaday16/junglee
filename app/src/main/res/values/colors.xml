@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="surface_light">#E7EAE4</color>
+    <color name="surface_dark">#CCD2C6</color>
+    <color name="dark">#28262C</color>
+
+    <color name="green_dark">#2E3C29</color>
+    <color name="green_medium">#4A6142</color>
+    <color name="green_light">#66865B</color>
+
+    <color name="yellow_dark">#B68F40</color>
+    <color name="yellow_medium">#CAA968</color>
+    <color name="yellow_light">#DAC395</color>
+
+    <color name="purple_dark">#684551</color>
+    <color name="purple_medium">#936273</color>
+    <color name="purple_light">#AD8593</color>
+</resources>
