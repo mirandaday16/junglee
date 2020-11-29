@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="surface_light">#E7EAE4</color>
-    <color name="surface_dark">#CCD2C6</color>
-    <color name="dark">#28262C</color>
+    <color name="colorSurfaceLight">#E7EAE4</color>
+    <color name="colorSurfaceDark">#CCD2C6</color>
+    <color name="colorTextDark">#28262C</color>
 
-    <color name="green_dark">#2E3C29</color>
-    <color name="green_medium">#4A6142</color>
-    <color name="green_light">#66865B</color>
+    <color name="colorPrimaryDark">#2E3C29</color>
+    <color name="colorPrimary">#4A6142</color>
+    <color name="colorPrimaryLight">#66865B</color>
 
-    <color name="yellow_dark">#B68F40</color>
-    <color name="yellow_medium">#CAA968</color>
-    <color name="yellow_light">#DAC395</color>
+    <color name="colorSecondaryDark">#684551</color>
+    <color name="colorSecondary">#936273</color>
+    <color name="colorSecondaryLight">#AD8593</color>
 
-    <color name="purple_dark">#684551</color>
-    <color name="purple_medium">#936273</color>
-    <color name="purple_light">#AD8593</color>
+    <color name="colorAccentDark">#B68F40</color>
+    <color name="colorAccent">#CAA968</color>
+    <color name="colorAccentLight">#DAC395</color>
 </resources>
