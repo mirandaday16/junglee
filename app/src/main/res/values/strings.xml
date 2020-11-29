@@ -1,3 +1,12 @@
 <resources>
+
+    <!--    Login Activity-->
     <string name="app_name">junglee</string>
+    <string name="log_in_all_caps">LOG IN</string>
+    <string name="sign_up_all_caps">SIGN UP</string>
+
+    <!--    Content Descriptions-->
+    <string name="login_screen_wallpaper">login screen wallpaper</string>
+    <string name="tagline_all_lower">grow your indoor jungle</string>
+
 </resources>
