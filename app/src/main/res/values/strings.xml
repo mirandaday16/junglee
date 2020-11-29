@@ -8,10 +8,19 @@
 
     <!--    Friends List Activity-->
     <string name="friends_cap">Friends</string>
+    <string name="username_filler">username</string>
 
 
     <!--    Content Descriptions-->
     <string name="login_screen_wallpaper">login screen wallpaper</string>
     <string name="friends_icon">friends icon</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="add_friend_button">add friend button</string>
+    <string name="my_jungle_activity_button">my jungle activity button</string>
+    <string name="checklist_activity_button">checklist activity button</string>
+    <string name="home_activity_button">home activity button</string>
+    <string name="environment_activity_button">environment activity button</string>
+    <string name="friends_activity_button">friends activity button</string>
+
 
 </resources>
