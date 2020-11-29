@@ -21,6 +21,12 @@
     <string name="home_activity_button">home activity button</string>
     <string name="environment_activity_button">environment activity button</string>
     <string name="friends_activity_button">friends activity button</string>
+    <string name="environment_icon">environment icon</string>
+    <string name="environment_cap">Environment</string>
+    <string name="checklist_icon">checklist icon</string>
+    <string name="checklist_cap">Checklist</string>
+    <string name="my_jungle_icon">my jungle icon</string>
+    <string name="my_jungle_cap">My Jungle</string>
 
 
 </resources>

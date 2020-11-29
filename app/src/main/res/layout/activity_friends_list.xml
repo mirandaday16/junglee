@@ -24,7 +24,7 @@
                 android:layout_width="?attr/actionBarSize"
                 android:layout_height="?attr/actionBarSize"
                 android:layout_marginHorizontal="16dp"
-                android:layout_marginVertical="4dp"
+                android:paddingVertical="4dp"
                 android:contentDescription="@string/friends_icon"
                 android:scaleType="centerInside"
                 android:src="@drawable/ic_friends" />
