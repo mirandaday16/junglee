@@ -2,11 +2,16 @@
 
     <!--    Login Activity-->
     <string name="app_name">junglee</string>
+    <string name="tagline_all_lower">grow your indoor jungle</string>
     <string name="log_in_all_caps">LOG IN</string>
     <string name="sign_up_all_caps">SIGN UP</string>
 
+    <!--    Friends List Activity-->
+    <string name="friends_cap">Friends</string>
+
+
     <!--    Content Descriptions-->
     <string name="login_screen_wallpaper">login screen wallpaper</string>
-    <string name="tagline_all_lower">grow your indoor jungle</string>
+    <string name="friends_icon">friends icon</string>
 
 </resources>

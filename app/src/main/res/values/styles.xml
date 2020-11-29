@@ -10,7 +10,7 @@
 
     <style name="BigHeadline">
         <item name="android:fontFamily">@font/poppins_bold</item>
-        <item name="android:textSize">48sp</item>
+        <item name="android:textSize">60sp</item>
         <item name="android:textColor">@color/colorTextDark</item>/>
     </style>
 
@@ -21,9 +21,9 @@
     </style>
 
     <style name="ActivityTitle">
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textSize">24sp</item>
-        <item name="android:textColor">@color/colorTextDark</item>/>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorSurfaceLight</item>/>
     </style>
 
     <style name="PostHeadline">
