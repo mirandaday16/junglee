@@ -14,33 +14,12 @@
         android:padding="20dp">
 
         <TextView
-            android:id="@+id/emailPrompt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="32dp"
-            android:textSize="15sp"
-            android:text="@string/prompt_email"
-            style="@style/ActivityTitleDark" />
-
-        <EditText
-            android:id="@+id/emailInput"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            style="@style/Detail"
-            android:background="@color/colorSurfaceLight"
-            android:layout_marginVertical="12dp"
-            android:padding="6dp"
-            android:hint="@string/hint_email"
-            android:inputType="textEmailAddress"/>
-
-        <TextView
             android:id="@+id/usernamePrompt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="32dp"
             android:textSize="15sp"
-            android:text="@string/prompt_choose_username"
+            android:text="@string/edit_username_prompt"
             style="@style/ActivityTitleDark"/>
 
         <EditText
@@ -57,34 +36,12 @@
             android:maxLength="16" />
 
         <TextView
-            android:id="@+id/passwordPrompt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="32dp"
-            android:textSize="15sp"
-            android:text="@string/prompt_choose_password"
-            style="@style/ActivityTitleDark" />
-
-        <EditText
-            android:id="@+id/passwordInput"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_password"
-            style="@style/Detail"
-            android:background="@color/colorSurfaceLight"
-            android:layout_marginVertical="12dp"
-            android:padding="6dp"
-            android:importantForAutofill="no"
-            android:inputType="textPassword"
-            android:maxLength="16" />
-
-        <TextView
             android:id="@+id/locationPrompt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="32dp"
             android:textSize="15sp"
-            android:text="@string/location_prompt"
+            android:text="@string/change_location_prompt"
             style="@style/ActivityTitleDark"/>
 
         <EditText
@@ -106,7 +63,7 @@
             android:layout_height="wrap_content"
             android:paddingTop="32dp"
             android:textSize="15sp"
-            android:text="@string/prompt_profile_pic"
+            android:text="@string/change_profile_pic_prompt"
             style="@style/ActivityTitleDark" />
 
         <ImageButton
@@ -127,7 +84,7 @@
             android:background="@color/colorSecondary"
             android:paddingVertical="6dp"
             android:paddingHorizontal="12dp"
-            android:text="@string/enter_the_jungle" />
+            android:text="@string/save_changes" />
 
 
     </LinearLayout>

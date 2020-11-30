@@ -20,6 +20,7 @@ class NewAccountActivity : AppCompatActivity() {
         val emailField = binding.emailInput
         val usernameField = binding.usernameInput
         val passwordField = binding.passwordInput
+        val locationField = binding.locationInput
         val profilePicButton = binding.imageButton
         val saveButton = binding.saveButton
 

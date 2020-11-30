@@ -12,10 +12,12 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/menuBar"
+            android:label=""
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/colorSurface"
-            app:menu="@menu/profile_options_menu" />
+            app:titleTextColor="@color/colorSurface"
+            app:menu="@menu/profile_options_menu"/>
 
         <LinearLayout
             android:id="@+id/userProfileContent"

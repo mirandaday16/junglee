@@ -18,7 +18,8 @@
     <string name="hint_email">Enter a valid email address</string>
     <string name="prompt_profile_pic">Upload a profile picture:</string>
     <string name="enter_the_jungle">Enter the Jungle</string>
-
+    <string name="location_hint">Enter a city or ZIP code</string>
+    <string name="location_prompt">Enter the location of your jungle:</string>
 
     <!--    My Jungle Activity-->
     <string name="my_jungle_cap">My Jungle</string>
@@ -28,6 +29,12 @@
     <string name="edit_profile_caps">Edit Profile</string>
     <string name="log_out_caps">Log Out</string>
 
+    <!--    Edit Profile Activity-->
+    <string name="edit_username_prompt">Edit your username:</string>
+    <string name="change_profile_pic_prompt">Change your profile picture:</string>
+    <string name="change_location_prompt">Change the location of your jungle:</string>
+    <string name="save_changes">Save Changes</string>
+
     <!--    Public Jungle Activity-->
     <string name="follow_caps">Follow</string>
 
@@ -35,6 +42,7 @@
     <string name="checklist_cap">Checklist</string>
 
     <!--    Landing Page Activity-->
+    <string name="landing_page_cap">Landing Page</string>
 
     <!--    Environment Activity-->
     <string name="environment_cap">Environment</string>
@@ -59,5 +67,6 @@
     <string name="my_jungle_icon">my jungle icon</string>
     <string name="plant_thumbnail_image_button">plant thumbnail image button</string>
     <string name="add_a_profile_picture_button">add a profile picture button</string>
+
 
 </resources>
