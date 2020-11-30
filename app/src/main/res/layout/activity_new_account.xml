@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSurface"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/emailPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="32dp"
+            android:textSize="15sp"
+            android:text="@string/prompt_email"
+            style="@style/ActivityTitleDark" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            style="@style/Detail"
+            android:background="@color/colorSurfaceLight"
+            android:layout_marginVertical="12dp"
+            android:padding="6dp"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/usernamePrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="32dp"
+            android:textSize="15sp"
+            android:text="@string/prompt_choose_username"
+            style="@style/ActivityTitleDark"/>
+
+        <EditText
+            android:id="@+id/usernameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            style="@style/Detail"
+            android:background="@color/colorSurfaceLight"
+            android:layout_marginVertical="12dp"
+            android:padding="6dp"
+            android:hint="@string/hint_username"
+            android:inputType="textPersonName"
+            android:maxLength="16" />
+
+        <TextView
+            android:id="@+id/passwordPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="32dp"
+            android:textSize="15sp"
+            android:text="@string/prompt_choose_password"
+            style="@style/ActivityTitleDark" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            style="@style/Detail"
+            android:background="@color/colorSurfaceLight"
+            android:layout_marginVertical="12dp"
+            android:padding="6dp"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:maxLength="16" />
+
+        <TextView
+            android:id="@+id/photoPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="32dp"
+            android:textSize="15sp"
+            android:text="@string/prompt_profile_pic"
+            style="@style/ActivityTitleDark" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/add_a_profile_picture_button"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <Button
+            android:id="@+id/saveButton"
+            style="@style/ButtonTextLight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="48dp"
+            android:background="@color/colorSecondary"
+            android:paddingVertical="6dp"
+            android:paddingHorizontal="12dp"
+            android:text="@string/enter_the_jungle" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/prompt_email_password"
-        android:textColor="@color/colorTextDark"
         android:textSize="15sp"
         android:layout_margin="32dp"/>
 
