@@ -1,26 +1,26 @@
-package edu.neu.junglee
+package com.mirandadayadkins.junglee
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-import edu.neu.junglee.databinding.ActivityChecklistBinding
+import com.mirandadayadkins.junglee.databinding.ActivityEnvironmentBinding
 
-class ChecklistActivity : AppCompatActivity() {
+class EnvironmentActivity : AppCompatActivity() {
 
     // Set up ViewBinding for the layout
-    private lateinit var binding: ActivityChecklistBinding
+    private lateinit var binding: ActivityEnvironmentBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         // Setting up binding instance and view instances
-        binding = ActivityChecklistBinding.inflate(layoutInflater)
+        binding = ActivityEnvironmentBinding.inflate(layoutInflater)
         val view = binding.root
         // Navigation bar view instances
         val myJungleNavBarButton = binding.myJungleButton
         val landingPageNavBarButton = binding.homeButton
-        val environmentNavBarButton = binding.environmentButton
+        val checklistNavBarButton = binding.checklistButton
         val friendsNavBarButton = binding.friendsButton
 
         // Setting onClickListeners for Navigation Bar Buttons
@@ -30,16 +30,17 @@ class ChecklistActivity : AppCompatActivity() {
             startActivity(myJungleIntent)
         }
 
-        // Checklist button does nothing (user is already here!)
+        checklistNavBarButton.setOnClickListener {
+            val checklistIntent = Intent(this, ChecklistActivity::class.java)
+            startActivity(checklistIntent)
+        }
 
         landingPageNavBarButton.setOnClickListener {
             val landingPageIntent = Intent(this, LandingPageActivity::class.java)
             startActivity(landingPageIntent)
         }
-        environmentNavBarButton.setOnClickListener {
-            val environmentIntent = Intent(this, EnvironmentActivity::class.java)
-            startActivity(environmentIntent)
-        }
+
+        // Environment button does nothing (user is already here!)
 
         friendsNavBarButton.setOnClickListener {
             val friendsListIntent = Intent(this, FriendsListActivity::class.java)
@@ -47,5 +48,6 @@ class ChecklistActivity : AppCompatActivity() {
         }
 
         setContentView(view)
+
     }
 }

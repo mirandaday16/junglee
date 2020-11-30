@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "edu.neu.junglee"
+        applicationId "com.mirandadayadkins.junglee"
         minSdkVersion 27
         targetSdkVersion 30
         versionCode 1

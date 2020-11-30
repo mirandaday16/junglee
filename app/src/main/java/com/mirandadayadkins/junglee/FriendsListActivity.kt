@@ -1,27 +1,27 @@
-package edu.neu.junglee
+package com.mirandadayadkins.junglee
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-import edu.neu.junglee.databinding.ActivityEnvironmentBinding
+import com.mirandadayadkins.junglee.databinding.ActivityFriendsListBinding
 
-class EnvironmentActivity : AppCompatActivity() {
+class FriendsListActivity : AppCompatActivity() {
 
     // Set up ViewBinding for the layout
-    private lateinit var binding: ActivityEnvironmentBinding
+    private lateinit var binding: ActivityFriendsListBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         // Setting up binding instance and view instances
-        binding = ActivityEnvironmentBinding.inflate(layoutInflater)
+        binding = ActivityFriendsListBinding.inflate(layoutInflater)
         val view = binding.root
         // Navigation bar view instances
         val myJungleNavBarButton = binding.myJungleButton
         val landingPageNavBarButton = binding.homeButton
+        val environmentNavBarButton = binding.environmentButton
         val checklistNavBarButton = binding.checklistButton
-        val friendsNavBarButton = binding.friendsButton
 
         // Setting onClickListeners for Navigation Bar Buttons
 
@@ -40,14 +40,13 @@ class EnvironmentActivity : AppCompatActivity() {
             startActivity(landingPageIntent)
         }
 
-        // Environment button does nothing (user is already here!)
-
-        friendsNavBarButton.setOnClickListener {
-            val friendsListIntent = Intent(this, FriendsListActivity::class.java)
-            startActivity(friendsListIntent)
+        environmentNavBarButton.setOnClickListener {
+            val environmentIntent = Intent(this, EnvironmentActivity::class.java)
+            startActivity(environmentIntent)
         }
 
-        setContentView(view)
+        // Friends button does nothing (user is already here!)
 
+        setContentView(view)
     }
 }

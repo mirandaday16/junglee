@@ -1,4 +1,4 @@
-package edu.neu.junglee
+package com.mirandadayadkins.junglee
 
 import android.content.DialogInterface
 import android.content.Intent
@@ -8,7 +8,7 @@ import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 
-import edu.neu.junglee.databinding.ActivityLoginBinding;
+import com.mirandadayadkins.junglee.databinding.ActivityLoginBinding;
 
 class LoginActivity : AppCompatActivity() {
 

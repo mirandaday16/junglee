@@ -1,10 +1,10 @@
-package edu.neu.junglee
+package com.mirandadayadkins.junglee
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-import edu.neu.junglee.databinding.ActivityNewAccountBinding
+import com.mirandadayadkins.junglee.databinding.ActivityNewAccountBinding
 
 class NewAccountActivity : AppCompatActivity() {
 
