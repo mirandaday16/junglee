@@ -29,6 +29,12 @@ class LoginActivity : AppCompatActivity() {
             showDialogBox()
         }
 
+        // Setting onClickListener for Sign Up Button - opens New Account Activity
+        signUpButton.setOnClickListener {
+            val newAccountIntent = Intent(this, NewAccountActivity::class.java)
+            startActivity(newAccountIntent)
+        }
+
         setContentView(view)
     }
 
