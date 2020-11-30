@@ -1,5 +1,6 @@
 package edu.neu.junglee
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
@@ -16,6 +17,34 @@ class ChecklistActivity : AppCompatActivity() {
         // Setting up binding instance and view instances
         binding = ActivityChecklistBinding.inflate(layoutInflater)
         val view = binding.root
+        // Navigation bar view instances
+        val myJungleNavBarButton = binding.myJungleButton
+        val landingPageNavBarButton = binding.homeButton
+        val environmentNavBarButton = binding.environmentButton
+        val friendsNavBarButton = binding.friendsButton
+
+        // Setting onClickListeners for Navigation Bar Buttons
+
+        myJungleNavBarButton.setOnClickListener {
+            val myJungleIntent = Intent(this, PersonalJungleActivity::class.java)
+            startActivity(myJungleIntent)
+        }
+
+        // Checklist button does nothing (user is already here!)
+
+        landingPageNavBarButton.setOnClickListener {
+            val landingPageIntent = Intent(this, LandingPageActivity::class.java)
+            startActivity(landingPageIntent)
+        }
+        environmentNavBarButton.setOnClickListener {
+            val environmentIntent = Intent(this, EnvironmentActivity::class.java)
+            startActivity(environmentIntent)
+        }
+
+        friendsNavBarButton.setOnClickListener {
+            val friendsListIntent = Intent(this, FriendsListActivity::class.java)
+            startActivity(friendsListIntent)
+        }
 
         setContentView(view)
     }
