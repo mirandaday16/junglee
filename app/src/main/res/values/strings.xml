@@ -13,6 +13,7 @@
     <string name="species_default">Species</string>
 
     <!--    Public Jungle Activity-->
+    <string name="follow_caps">Follow</string>
 
     <!--    Checklist Activity-->
     <string name="checklist_cap">Checklist</string>
@@ -41,6 +42,11 @@
     <string name="checklist_icon">checklist icon</string>
     <string name="my_jungle_icon">my jungle icon</string>
     <string name="plant_thumbnail_image_button">plant thumbnail image button</string>
+    <string name="edit_profile_caps">Edit Profile</string>
+    <string name="log_out_caps">Log Out</string>
+    <string name="prompt_email_password">Enter your email address and password:</string>
+    <string name="email_address_caps">Email Address</string>
+    <string name="password_caps">Password</string>
 
 
 </resources>

@@ -56,10 +56,16 @@
         <item name="android:textColor">@color/colorTextLight</item>/>
     </style>
 
-    <style name="ButtonText">
+    <style name="ButtonTextDark">
         <item name="android:fontFamily">@font/poppins_medium</item>
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">@color/colorTextLight</item>/>
+    </style>
+
+    <style name="ButtonTextLight">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorSurfaceLight</item>/>
     </style>
 
     <style name="MenuItem">
@@ -69,6 +75,6 @@
     </style>
 
     <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
-        <item name="android:colorBackground">@color/colorSurfaceLight</item>
+        <item name="android:colorBackground">@color/colorSurface</item>
     </style>
 </resources>

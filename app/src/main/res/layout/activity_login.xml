@@ -43,7 +43,7 @@
 
         <Button
             android:id="@+id/logInButton"
-            style="@style/ButtonText"
+            style="@style/ButtonTextDark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/long_button"
@@ -51,7 +51,7 @@
 
         <Button
             android:id="@+id/signUpButton"
-            style="@style/ButtonText"
+            style="@style/ButtonTextDark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"

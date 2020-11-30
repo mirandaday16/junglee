@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorSurface"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/prompt"
+        style="@style/ActivityTitleDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/prompt_email_password"
+        android:textColor="@color/colorTextDark"
+        android:textSize="15sp"
+        android:layout_margin="32dp"/>
+
+    <EditText
+        android:id="@+id/emailEntryField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="12dp"
+        android:padding="6dp"
+        android:autofillHints="@string/email_address_caps"
+        android:hint="@string/email_address_caps"
+        android:background="@color/colorSurfaceLight"
+        style="@style/Detail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordEntryField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        android:layout_marginHorizontal="36dp"
+        android:padding="6dp"
+        android:hint="@string/password_caps"
+        android:background="@color/colorSurfaceLight"
+        style="@style/Detail"
+        android:inputType="textPassword"
+        android:autofillHints="@string/password_caps" />
+
+
+</LinearLayout>
