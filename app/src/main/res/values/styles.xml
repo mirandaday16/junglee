@@ -20,10 +20,16 @@
         <item name="android:textColor">@color/colorTextDark</item>/>
     </style>
 
-    <style name="ActivityTitle">
+    <style name="ActivityTitleLight">
         <item name="android:fontFamily">@font/poppins_semibold</item>
         <item name="android:textSize">32sp</item>
         <item name="android:textColor">@color/colorSurfaceLight</item>/>
+    </style>
+
+    <style name="ActivityTitleDark">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>/>
     </style>
 
     <style name="ListItem">
@@ -32,15 +38,21 @@
         <item name="android:textColor">@color/colorTextDark</item>/>
     </style>
 
-    <style name="Body">
-        <item name="android:fontFamily">@font/poppins</item>
+    <style name="PlantNameThumbnail">
+        <item name="android:fontFamily">@font/poppins_bold</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/colorTextDark</item>/>
     </style>
 
-    <style name="Detail">
+    <style name="SubheadThumbnail">
         <item name="android:fontFamily">@font/poppins_light</item>
         <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorTextLight</item>/>
+    </style>
+
+    <style name="Detail">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/colorTextLight</item>/>
     </style>
 

@@ -6,6 +6,22 @@
     <string name="log_in_all_caps">LOG IN</string>
     <string name="sign_up_all_caps">SIGN UP</string>
 
+    <!--    My Jungle Activity-->
+    <string name="my_jungle_cap">My Jungle</string>
+    <string name="plants_followers_default"># Plants | # Followers</string>
+    <string name="plant_name_default">Plant Name</string>
+    <string name="species_default">Species</string>
+
+    <!--    Public Jungle Activity-->
+
+    <!--    Checklist Activity-->
+    <string name="checklist_cap">Checklist</string>
+
+    <!--    Landing Page Activity-->
+
+    <!--    Environment Activity-->
+    <string name="environment_cap">Environment</string>
+
     <!--    Friends List Activity-->
     <string name="friends_cap">Friends</string>
     <string name="username_filler">username</string>
@@ -22,11 +38,9 @@
     <string name="environment_activity_button">environment activity button</string>
     <string name="friends_activity_button">friends activity button</string>
     <string name="environment_icon">environment icon</string>
-    <string name="environment_cap">Environment</string>
     <string name="checklist_icon">checklist icon</string>
-    <string name="checklist_cap">Checklist</string>
     <string name="my_jungle_icon">my jungle icon</string>
-    <string name="my_jungle_cap">My Jungle</string>
+    <string name="plant_thumbnail_image_button">plant thumbnail image button</string>
 
 
 </resources>
