@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/JungleeTheme">
-        <activity android:name=".NewAccountActivity"></activity>
+        <activity android:name=".FriendsListActivity"></activity>
+        <activity android:name=".EnvironmentActivity" />
+        <activity android:name=".ChecklistActivity" />
+        <activity android:name=".PersonalJungleActivity" />
+        <activity android:name=".NewAccountActivity" />
         <activity android:name=".LandingPageActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
