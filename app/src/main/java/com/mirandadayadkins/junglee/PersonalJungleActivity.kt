@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
-import androidx.appcompat.widget.Toolbar
 
 import com.mirandadayadkins.junglee.databinding.ActivityJunglePersonalBinding
 
@@ -20,7 +19,7 @@ class PersonalJungleActivity : AppCompatActivity() {
 
         // Setting up binding instance and view instances
         binding = ActivityJunglePersonalBinding.inflate(layoutInflater)
-        val view = binding.root
+        val rootView = binding.root
         val toolbar = binding.menuBar
         val profilePicture = binding.profilePicture
         val usernameDisplay = binding.username
@@ -56,7 +55,7 @@ class PersonalJungleActivity : AppCompatActivity() {
             startActivity(friendsListIntent)
         }
 
-        setContentView(view)
+        setContentView(rootView)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

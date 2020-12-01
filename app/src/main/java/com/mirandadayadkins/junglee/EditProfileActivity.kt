@@ -16,13 +16,13 @@ class EditProfileActivity : AppCompatActivity() {
 
         // Setting up binding instance and view instances
         binding = ActivityEditProfileBinding.inflate(layoutInflater)
-        val view = binding.root
+        val rootView = binding.root
         val usernameField = binding.usernameInput
         val locationField = binding.locationInput
         val profilePicButton = binding.imageButton
         val saveButton = binding.saveButton
 
-        setContentView(view)
+        setContentView(rootView)
 
         // Setting onClickListener for Save Button -- save profile data in Firebase DB and return to My Jungle Activity
         saveButton.setOnClickListener {

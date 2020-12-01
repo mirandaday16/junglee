@@ -20,7 +20,7 @@ class LoginActivity : AppCompatActivity() {
 
         // Setting up binding instance and view instances
         binding = ActivityLoginBinding.inflate(layoutInflater)
-        val view = binding.root
+        val rootView = binding.root
         val logInButton = binding.logInButton
         val signUpButton = binding.signUpButton
 
@@ -35,7 +35,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(newAccountIntent)
         }
 
-        setContentView(view)
+        setContentView(rootView)
     }
 
     /*

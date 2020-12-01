@@ -16,7 +16,7 @@ class FriendsListActivity : AppCompatActivity() {
 
         // Setting up binding instance and view instances
         binding = ActivityFriendsListBinding.inflate(layoutInflater)
-        val view = binding.root
+        val rootView = binding.root
         // Navigation bar view instances
         val myJungleNavBarButton = binding.myJungleButton
         val landingPageNavBarButton = binding.homeButton
@@ -47,6 +47,6 @@ class FriendsListActivity : AppCompatActivity() {
 
         // Friends button does nothing (user is already here!)
 
-        setContentView(view)
+        setContentView(rootView)
     }
 }

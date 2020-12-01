@@ -16,7 +16,7 @@ class NewAccountActivity : AppCompatActivity() {
 
         // Setting up binding instance and view instances
         binding = ActivityNewAccountBinding.inflate(layoutInflater)
-        val view = binding.root
+        val rootView = binding.root
         val emailField = binding.emailInput
         val usernameField = binding.usernameInput
         val passwordField = binding.passwordInput
@@ -38,7 +38,7 @@ class NewAccountActivity : AppCompatActivity() {
             startActivity(landingPageIntent)
         }
 
-        setContentView(view)
+        setContentView(rootView)
 
     }
 }

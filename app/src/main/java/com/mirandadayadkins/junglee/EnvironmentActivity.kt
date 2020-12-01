@@ -16,7 +16,7 @@ class EnvironmentActivity : AppCompatActivity() {
 
         // Setting up binding instance and view instances
         binding = ActivityEnvironmentBinding.inflate(layoutInflater)
-        val view = binding.root
+        val rootView = binding.root
         // Navigation bar view instances
         val myJungleNavBarButton = binding.myJungleButton
         val landingPageNavBarButton = binding.homeButton
@@ -47,7 +47,7 @@ class EnvironmentActivity : AppCompatActivity() {
             startActivity(friendsListIntent)
         }
 
-        setContentView(view)
+        setContentView(rootView)
 
     }
 }

@@ -16,7 +16,7 @@ class LandingPageActivity : AppCompatActivity() {
 
         // Setting up binding instance and view instances
         binding = ActivityLandingPageBinding.inflate(layoutInflater)
-        val view = binding.root
+        val rootView = binding.root
         // Navigation bar view instances
         val myJungleNavBarButton = binding.myJungleButton
         val checklistNavBarButton = binding.checklistButton
@@ -46,7 +46,7 @@ class LandingPageActivity : AppCompatActivity() {
             startActivity(friendsListIntent)
         }
 
-        setContentView(view)
+        setContentView(rootView)
 
     }
 }
