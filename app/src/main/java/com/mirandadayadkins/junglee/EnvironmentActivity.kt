@@ -21,31 +21,12 @@ class EnvironmentActivity : AppCompatActivity() {
         val myJungleNavBarButton = binding.myJungleButton
         val landingPageNavBarButton = binding.homeButton
         val checklistNavBarButton = binding.checklistButton
+        val environmentNavBarButton = binding.environmentButton
         val friendsNavBarButton = binding.friendsButton
 
-        // Setting onClickListeners for Navigation Bar Buttons
-
-        myJungleNavBarButton.setOnClickListener {
-            val myJungleIntent = Intent(this, PersonalJungleActivity::class.java)
-            startActivity(myJungleIntent)
-        }
-
-        checklistNavBarButton.setOnClickListener {
-            val checklistIntent = Intent(this, ChecklistActivity::class.java)
-            startActivity(checklistIntent)
-        }
-
-        landingPageNavBarButton.setOnClickListener {
-            val landingPageIntent = Intent(this, LandingPageActivity::class.java)
-            startActivity(landingPageIntent)
-        }
-
-        // Environment button does nothing (user is already here!)
-
-        friendsNavBarButton.setOnClickListener {
-            val friendsListIntent = Intent(this, FriendsListActivity::class.java)
-            startActivity(friendsListIntent)
-        }
+        val navBar = NavigationBar(this, savedInstanceState, myJungleNavBarButton,
+                checklistNavBarButton, landingPageNavBarButton, environmentNavBarButton,
+                friendsNavBarButton)
 
         setContentView(rootView)
 

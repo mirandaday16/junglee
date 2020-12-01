@@ -25,6 +25,7 @@ class PersonalJungleActivity : AppCompatActivity() {
         val usernameDisplay = binding.username
         val plantsAndFollowersDisplay = binding.followersPlantsCount
         // Navigation bar view instances
+        val myJungleNavBarButton = binding.myJungleButton
         val checklistNavBarButton = binding.checklistButton
         val landingPageNavBarButton = binding.homeButton
         val environmentNavBarButton = binding.environmentButton
@@ -32,28 +33,9 @@ class PersonalJungleActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
 
-        // Setting onClickListeners for Navigation Bar Buttons
-
-        // My Jungle button does nothing (user is already here!)
-
-        checklistNavBarButton.setOnClickListener {
-            val checklistIntent = Intent(this, ChecklistActivity::class.java)
-            startActivity(checklistIntent)
-        }
-
-        landingPageNavBarButton.setOnClickListener {
-            val landingPageIntent = Intent(this, LandingPageActivity::class.java)
-            startActivity(landingPageIntent)
-        }
-        environmentNavBarButton.setOnClickListener {
-            val environmentIntent = Intent(this, EnvironmentActivity::class.java)
-            startActivity(environmentIntent)
-        }
-
-        friendsNavBarButton.setOnClickListener {
-            val friendsListIntent = Intent(this, FriendsListActivity::class.java)
-            startActivity(friendsListIntent)
-        }
+        val navBar = NavigationBar(this, savedInstanceState, myJungleNavBarButton,
+                checklistNavBarButton, landingPageNavBarButton, environmentNavBarButton,
+                friendsNavBarButton)
 
         setContentView(rootView)
     }

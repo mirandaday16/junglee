@@ -22,30 +22,11 @@ class FriendsListActivity : AppCompatActivity() {
         val landingPageNavBarButton = binding.homeButton
         val environmentNavBarButton = binding.environmentButton
         val checklistNavBarButton = binding.checklistButton
+        val friendsNavBarButton = binding.friendsButton
 
-        // Setting onClickListeners for Navigation Bar Buttons
-
-        myJungleNavBarButton.setOnClickListener {
-            val myJungleIntent = Intent(this, PersonalJungleActivity::class.java)
-            startActivity(myJungleIntent)
-        }
-
-        checklistNavBarButton.setOnClickListener {
-            val checklistIntent = Intent(this, ChecklistActivity::class.java)
-            startActivity(checklistIntent)
-        }
-
-        landingPageNavBarButton.setOnClickListener {
-            val landingPageIntent = Intent(this, LandingPageActivity::class.java)
-            startActivity(landingPageIntent)
-        }
-
-        environmentNavBarButton.setOnClickListener {
-            val environmentIntent = Intent(this, EnvironmentActivity::class.java)
-            startActivity(environmentIntent)
-        }
-
-        // Friends button does nothing (user is already here!)
+        val navBar = NavigationBar(this, savedInstanceState, myJungleNavBarButton,
+                checklistNavBarButton, landingPageNavBarButton, environmentNavBarButton,
+                friendsNavBarButton)
 
         setContentView(rootView)
     }
