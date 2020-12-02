@@ -24,18 +24,11 @@ class PersonalJungleActivity : AppCompatActivity() {
         val profilePicture = binding.profilePicture
         val usernameDisplay = binding.username
         val plantsAndFollowersDisplay = binding.followersPlantsCount
-        // Navigation bar view instances
-        val myJungleNavBarButton = binding.myJungleButton
-        val checklistNavBarButton = binding.checklistButton
-        val landingPageNavBarButton = binding.homeButton
-        val environmentNavBarButton = binding.environmentButton
-        val friendsNavBarButton = binding.friendsButton
+        val navigationBarView = binding.navigationBar
+
+        val navBar = NavigationBar(this, savedInstanceState, navigationBarView)
 
         setSupportActionBar(toolbar)
-
-        val navBar = NavigationBar(this, savedInstanceState, myJungleNavBarButton,
-                checklistNavBarButton, landingPageNavBarButton, environmentNavBarButton,
-                friendsNavBarButton)
 
         setContentView(rootView)
     }

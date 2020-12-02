@@ -18,15 +18,7 @@ class EnvironmentActivity : AppCompatActivity() {
         binding = ActivityEnvironmentBinding.inflate(layoutInflater)
         val rootView = binding.root
         // Navigation bar view instances
-        val myJungleNavBarButton = binding.myJungleButton
-        val landingPageNavBarButton = binding.homeButton
-        val checklistNavBarButton = binding.checklistButton
-        val environmentNavBarButton = binding.environmentButton
-        val friendsNavBarButton = binding.friendsButton
-
-        val navBar = NavigationBar(this, savedInstanceState, myJungleNavBarButton,
-                checklistNavBarButton, landingPageNavBarButton, environmentNavBarButton,
-                friendsNavBarButton)
+        val navBar = NavigationBar(this, savedInstanceState, binding.navigationBar)
 
         setContentView(rootView)
 

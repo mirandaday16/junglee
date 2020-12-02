@@ -10,9 +10,7 @@ import androidx.core.content.ContextCompat.startActivity
 // Appears at the bottom of most Activity layouts (major Activities) and allows navigation between
 // 5 major activities: My Jungle, Checklist, Landing Page, Environment, and Friends List
 
-class NavigationBar(context: Context, savedInstanceState: Bundle?, myJungleButton: ImageButton,
-                    checklistButton: ImageButton, landingPageButton: ImageButton,
-                    environmentButton: ImageButton, friendsListButton: ImageButton) {
+class NavigationBar(context: Context, savedInstanceState: Bundle?, navigationBar: NavBarView) {
 
     var buttonMyJungleActivity: ImageButton
     var buttonChecklistActivity: ImageButton
@@ -21,11 +19,11 @@ class NavigationBar(context: Context, savedInstanceState: Bundle?, myJungleButto
     var buttonFriendsListActivity: ImageButton
 
     init {
-        buttonMyJungleActivity = myJungleButton
-        buttonChecklistActivity = checklistButton
-        buttonLandingPageActivity = landingPageButton
-        buttonEnvironmentActivity = environmentButton
-        buttonFriendsListActivity = friendsListButton
+        buttonMyJungleActivity = navigationBar.myJungleButton
+        buttonChecklistActivity = navigationBar.checklistButton
+        buttonLandingPageActivity = navigationBar.landingPageButton
+        buttonEnvironmentActivity = navigationBar.environmentButton
+        buttonFriendsListActivity = navigationBar.friendsListButton
 
         // Set onClickListeners for each button to take the user to the appropriate activity
         buttonMyJungleActivity.setOnClickListener {

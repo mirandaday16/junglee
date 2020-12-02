@@ -17,16 +17,9 @@ class FriendsListActivity : AppCompatActivity() {
         // Setting up binding instance and view instances
         binding = ActivityFriendsListBinding.inflate(layoutInflater)
         val rootView = binding.root
-        // Navigation bar view instances
-        val myJungleNavBarButton = binding.myJungleButton
-        val landingPageNavBarButton = binding.homeButton
-        val environmentNavBarButton = binding.environmentButton
-        val checklistNavBarButton = binding.checklistButton
-        val friendsNavBarButton = binding.friendsButton
+        val navigationBarView = binding.navigationBar
 
-        val navBar = NavigationBar(this, savedInstanceState, myJungleNavBarButton,
-                checklistNavBarButton, landingPageNavBarButton, environmentNavBarButton,
-                friendsNavBarButton)
+        val navBar = NavigationBar(this, savedInstanceState, navigationBarView)
 
         setContentView(rootView)
     }

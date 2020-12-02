@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?android:attr/buttonBarStyle"
+    android:background="@color/colorSurfaceDark"
+    android:gravity="center_horizontal"
+    android:id="@+id/navigationBar"
+    android:layout_alignParentBottom="true"
+    android:layout_height="56dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    >
+
+
+    <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
+        android:contentDescription="@string/my_jungle_activity_button"
+        android:id="@+id/myJungleButton"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_my_jungle" />
+
+    <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
+        android:contentDescription="@string/checklist_activity_button"
+        android:id="@+id/checklistButton"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_checklist" />
+
+    <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
+        android:contentDescription="@string/home_activity_button"
+        android:id="@+id/homeButton"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_home" />
+
+    <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
+        android:contentDescription="@string/environment_activity_button"
+        android:id="@+id/environmentButton"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_environment" />
+
+    <ImageButton
+        style="?android:attr/buttonBarButtonStyle"
+        android:contentDescription="@string/friends_activity_button"
+        android:id="@+id/friendsButton"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_friends" />
+</LinearLayout>

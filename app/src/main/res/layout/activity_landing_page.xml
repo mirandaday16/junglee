@@ -27,68 +27,11 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <LinearLayout
+        <com.mirandadayadkins.junglee.NavBarView
             android:id="@+id/navigationBar"
-            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:layout_alignParentBottom="true"
-            android:background="@color/colorSurfaceDark"
-            android:orientation="horizontal"
-            android:gravity="center_horizontal">
-
-
-            <ImageButton
-                android:id="@+id/myJungleButton"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:contentDescription="@string/my_jungle_activity_button"
-                android:scaleType="fitCenter"
-                android:src="@drawable/ic_my_jungle" />
-
-            <ImageButton
-                android:id="@+id/checklistButton"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:contentDescription="@string/checklist_activity_button"
-                android:scaleType="fitCenter"
-                android:src="@drawable/ic_checklist" />
-
-            <ImageButton
-                android:id="@+id/homeButton"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:contentDescription="@string/home_activity_button"
-                android:background="@color/colorSurfaceDarkest"
-                android:scaleType="fitCenter"
-                android:src="@drawable/ic_home" />
-
-            <ImageButton
-                android:id="@+id/environmentButton"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:contentDescription="@string/environment_activity_button"
-                android:scaleType="fitCenter"
-                android:src="@drawable/ic_environment" />
-
-            <ImageButton
-                android:id="@+id/friendsButton"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:contentDescription="@string/friends_activity_button"
-                android:scaleType="fitCenter"
-                android:src="@drawable/ic_friends" />
-        </LinearLayout>
+            android:layout_alignParentBottom="true"/>
 
     </RelativeLayout>
 
