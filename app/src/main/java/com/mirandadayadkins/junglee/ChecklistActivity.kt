@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 import com.mirandadayadkins.junglee.databinding.ActivityChecklistBinding
+import com.mirandadayadkins.junglee.enums.NavBarButtons
 
 class ChecklistActivity : AppCompatActivity() {
 
@@ -18,6 +19,7 @@ class ChecklistActivity : AppCompatActivity() {
         binding = ActivityChecklistBinding.inflate(layoutInflater)
         val rootView = binding.root
         val navigationBarView = binding.navigationBar
+        navigationBarView.setSelected(NavBarButtons.CHECKLIST)
 
         val navBar = NavigationBar(this, savedInstanceState, navigationBarView)
 

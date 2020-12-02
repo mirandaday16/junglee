@@ -7,9 +7,8 @@ import android.widget.ImageButton
 import android.widget.LinearLayout
 import com.mirandadayadkins.junglee.enums.NavBarButtons
 
-/**
- * TODO: document your custom view class.
- */
+// A navigation bar that navigates between the 5 major activities of the app
+
 class NavBarView(context: Context, attributeSet: AttributeSet) : FrameLayout(context, attributeSet) {
     lateinit var myJungleButton: ImageButton
     lateinit var checklistButton: ImageButton

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 import com.mirandadayadkins.junglee.databinding.ActivityEnvironmentBinding
+import com.mirandadayadkins.junglee.enums.NavBarButtons
 
 class EnvironmentActivity : AppCompatActivity() {
 
@@ -17,8 +18,10 @@ class EnvironmentActivity : AppCompatActivity() {
         // Setting up binding instance and view instances
         binding = ActivityEnvironmentBinding.inflate(layoutInflater)
         val rootView = binding.root
-        // Navigation bar view instances
-        val navBar = NavigationBar(this, savedInstanceState, binding.navigationBar)
+        val navigationBarView = binding.navigationBar
+        navigationBarView.setSelected(NavBarButtons.ENVIRONMENT)
+
+        val navBar = NavigationBar(this, savedInstanceState, navigationBarView)
 
         setContentView(rootView)
 

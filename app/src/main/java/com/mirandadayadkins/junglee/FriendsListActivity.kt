@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 import com.mirandadayadkins.junglee.databinding.ActivityFriendsListBinding
+import com.mirandadayadkins.junglee.enums.NavBarButtons
 
 class FriendsListActivity : AppCompatActivity() {
 
@@ -18,6 +19,8 @@ class FriendsListActivity : AppCompatActivity() {
         binding = ActivityFriendsListBinding.inflate(layoutInflater)
         val rootView = binding.root
         val navigationBarView = binding.navigationBar
+        navigationBarView.setSelected(NavBarButtons.FRIENDS)
+
 
         val navBar = NavigationBar(this, savedInstanceState, navigationBarView)
 
