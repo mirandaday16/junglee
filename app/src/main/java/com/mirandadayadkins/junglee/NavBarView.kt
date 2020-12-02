@@ -10,19 +10,19 @@ import com.mirandadayadkins.junglee.enums.NavBarButtons
 // A navigation bar that navigates between the 5 major activities of the app
 
 class NavBarView(context: Context, attributeSet: AttributeSet) : FrameLayout(context, attributeSet) {
-    lateinit var myJungleButton: ImageButton
-    lateinit var checklistButton: ImageButton
-    lateinit var landingPageButton: ImageButton
-    lateinit var environmentButton: ImageButton
-    lateinit var friendsListButton: ImageButton
+    var myJungleButton: ImageButton
+    var checklistButton: ImageButton
+    var landingPageButton: ImageButton
+    var environmentButton: ImageButton
+    var friendsListButton: ImageButton
 
     init {
         inflate(context, R.layout.navigation_bar, this)
-        myJungleButton = findViewById<ImageButton>(R.id.myJungleButton)
-        checklistButton = findViewById<ImageButton>(R.id.checklistButton)
-        landingPageButton = findViewById<ImageButton>(R.id.homeButton)
-        environmentButton = findViewById<ImageButton>(R.id.environmentButton)
-        friendsListButton = findViewById<ImageButton>(R.id.friendsButton)
+        myJungleButton = findViewById(R.id.myJungleButton)
+        checklistButton = findViewById(R.id.checklistButton)
+        landingPageButton = findViewById(R.id.homeButton)
+        environmentButton = findViewById(R.id.environmentButton)
+        friendsListButton = findViewById(R.id.friendsButton)
     }
 
     fun setSelected(page: Enum<NavBarButtons>) {
