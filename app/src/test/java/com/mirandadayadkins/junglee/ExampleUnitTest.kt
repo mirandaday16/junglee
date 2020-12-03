@@ -1,4 +1,4 @@
-package edu.neu.junglee
+package com.mirandadayadkins.junglee
 
 import org.junit.Test
 

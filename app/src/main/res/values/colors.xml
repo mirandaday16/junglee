@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorSurfaceLight">#E7EAE4</color>
+    <color name="colorSurface">#E7EAE4</color>
+    <color name="colorSurfaceLight">#F3F3F3</color>
     <color name="colorSurfaceDark">#CCD2C6</color>
+    <color name="colorSurfaceDarkest">#ADB7A4</color>
+
     <color name="colorTextDark">#28262C</color>
+    <color name="colorTextLight">#38363D</color>
+
 
     <color name="colorPrimaryDark">#2E3C29</color>
     <color name="colorPrimary">#4A6142</color>
@@ -15,4 +20,8 @@
     <color name="colorAccentDark">#B68F40</color>
     <color name="colorAccent">#CAA968</color>
     <color name="colorAccentLight">#DAC395</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
 </resources>

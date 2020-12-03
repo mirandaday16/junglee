@@ -1,3 +1,72 @@
 <resources>
+
+    <!--    Login Activity-->
     <string name="app_name">junglee</string>
+    <string name="tagline_all_lower">grow your indoor jungle</string>
+    <string name="log_in_all_caps">LOG IN</string>
+    <string name="sign_up_all_caps">SIGN UP</string>
+    <string name="prompt_email_password">Enter your email address and password:</string>
+    <string name="email_address_caps">Email Address</string>
+    <string name="password_caps">Password</string>
+
+    <!--    New Account Activity-->
+    <string name="prompt_email">Enter your email address:</string>
+    <string name="prompt_choose_username">Choose a username</string>
+    <string name="prompt_choose_password">Choose a password:</string>
+    <string name="hint_password">Choose a password between 8–16 characters.</string>
+    <string name="hint_username">Username should not include ., #, $, [, or ]</string>
+    <string name="hint_email">Enter a valid email address</string>
+    <string name="prompt_profile_pic">Upload a profile picture:</string>
+    <string name="enter_the_jungle">Enter the Jungle</string>
+    <string name="location_hint">Enter a city or ZIP code</string>
+    <string name="location_prompt">Enter the location of your jungle:</string>
+
+    <!--    My Jungle Activity-->
+    <string name="my_jungle_cap">My Jungle</string>
+    <string name="plants_followers_default"># Plants | # Followers</string>
+    <string name="plant_name_default">Plant Name</string>
+    <string name="species_default">Species</string>
+    <string name="edit_profile_caps">Edit Profile</string>
+    <string name="log_out_caps">Log Out</string>
+
+    <!--    Edit Profile Activity-->
+    <string name="edit_username_prompt">Edit your username:</string>
+    <string name="change_profile_pic_prompt">Change your profile picture:</string>
+    <string name="change_location_prompt">Change the location of your jungle:</string>
+    <string name="save_changes">Save Changes</string>
+
+    <!--    Public Jungle Activity-->
+    <string name="follow_caps">Follow</string>
+
+    <!--    Checklist Activity-->
+    <string name="checklist_cap">Checklist</string>
+
+    <!--    Landing Page Activity-->
+    <string name="landing_page_cap">Landing Page</string>
+
+    <!--    Environment Activity-->
+    <string name="environment_cap">Environment</string>
+
+    <!--    Friends List Activity-->
+    <string name="friends_cap">Friends</string>
+    <string name="username_filler">username</string>
+
+
+    <!--    Content Descriptions-->
+    <string name="login_screen_wallpaper">login screen wallpaper</string>
+    <string name="friends_icon">friends icon</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="add_friend_button">add friend button</string>
+    <string name="my_jungle_activity_button">my jungle activity button</string>
+    <string name="checklist_activity_button">checklist activity button</string>
+    <string name="home_activity_button">home activity button</string>
+    <string name="environment_activity_button">environment activity button</string>
+    <string name="friends_activity_button">friends activity button</string>
+    <string name="environment_icon">environment icon</string>
+    <string name="checklist_icon">checklist icon</string>
+    <string name="my_jungle_icon">my jungle icon</string>
+    <string name="plant_thumbnail_image_button">plant thumbnail image button</string>
+    <string name="add_a_profile_picture_button">add a profile picture button</string>
+
+
 </resources>

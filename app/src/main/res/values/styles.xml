@@ -7,4 +7,79 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="BigHeadline">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>/>
+    </style>
+
+    <style name="BigSubhead">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>/>
+    </style>
+
+    <style name="ActivityTitleLight">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorSurfaceLight</item>/>
+    </style>
+
+    <style name="ActivityTitleDark">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>/>
+    </style>
+
+    <style name="ListItem">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>/>
+    </style>
+
+    <style name="PlantNameThumbnail">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>/>
+    </style>
+
+    <style name="SubheadThumbnail">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorTextLight</item>/>
+    </style>
+
+    <style name="Detail">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorTextLight</item>/>
+    </style>
+
+    <style name="ButtonTextDark">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorTextLight</item>/>
+    </style>
+
+    <style name="ButtonTextLight">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorSurfaceLight</item>/>
+    </style>
+
+    <style name="MenuItem">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>/>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorBackground">@color/colorSurface</item>
+    </style>
+
+    <style name="Widget.JungleeTheme.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+        <item name="exampleColor">@color/light_blue_400</item>
+    </style>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.neu.junglee">
+    package="com.mirandadayadkins.junglee">
 
     <application
         android:allowBackup="true"
@@ -9,13 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/JungleeTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".EditProfileActivity"></activity>
+        <activity android:name=".FriendsListActivity" />
+        <activity android:name=".EnvironmentActivity" />
+        <activity android:name=".ChecklistActivity" />
+        <activity android:name=".PersonalJungleActivity" />
+        <activity android:name=".NewAccountActivity" />
+        <activity android:name=".LandingPageActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
