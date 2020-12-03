@@ -1,11 +1,10 @@
 package com.mirandadayadkins.junglee
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 import com.mirandadayadkins.junglee.databinding.ActivityLandingPageBinding
-import com.mirandadayadkins.junglee.enums.NavBarButtons
+import com.mirandadayadkins.junglee.navbar.NavBarButton
 
 class LandingPageActivity : AppCompatActivity() {
 
@@ -19,10 +18,7 @@ class LandingPageActivity : AppCompatActivity() {
         binding = ActivityLandingPageBinding.inflate(layoutInflater)
         val rootView = binding.root
         val navigationBarView = binding.navigationBar
-        navigationBarView.setSelected(NavBarButtons.LANDING)
-
-
-        val navBar = NavigationBar(this, savedInstanceState, navigationBarView)
+        navigationBarView.setSelected(NavBarButton.LANDING)
 
         setContentView(rootView)
 

@@ -44,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <com.mirandadayadkins.junglee.NavBarView
+        <com.mirandadayadkins.junglee.navbar.NavBarView
             android:id="@+id/navigationBar"
             android:layout_width="match_parent"
             android:layout_height="56dp"

@@ -8,7 +8,7 @@ import android.view.MenuItem
 import android.widget.Toast
 
 import com.mirandadayadkins.junglee.databinding.ActivityJunglePersonalBinding
-import com.mirandadayadkins.junglee.enums.NavBarButtons
+import com.mirandadayadkins.junglee.navbar.NavBarButton
 
 class PersonalJungleActivity : AppCompatActivity() {
 
@@ -26,9 +26,7 @@ class PersonalJungleActivity : AppCompatActivity() {
         val usernameDisplay = binding.username
         val plantsAndFollowersDisplay = binding.followersPlantsCount
         val navigationBarView = binding.navigationBar
-        navigationBarView.setSelected(NavBarButtons.MYJUNGLE)
-
-        val navBar = NavigationBar(this, savedInstanceState, navigationBarView)
+        navigationBarView.setSelected(NavBarButton.MYJUNGLE)
 
         setSupportActionBar(toolbar)
 
